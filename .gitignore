@@ -19,3 +19,6 @@ report/*.blg
 
 # OS noise
 .DS_Store
+
+# submission archives
+*.zip

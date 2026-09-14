@@ -1,0 +1,21 @@
+# Python environment (675 MB of installed packages - recreate with:
+#   python3 -m venv .venv && .venv/bin/pip install -r requirements.txt)
+.venv/
+__pycache__/
+*.pyc
+
+# LaTeX build intermediates (report/main.tex is the source; the PDF is kept)
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.lof
+report/*.lot
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
+report/*.bbl
+report/*.blg
+
+# OS noise
+.DS_Store
